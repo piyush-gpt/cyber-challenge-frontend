@@ -4,11 +4,10 @@ import { UserX, FileCheck, Phone, Upload } from 'lucide-react';
 import { DetectionType } from '../services/types';
 import { DetectionTypeCard } from '../components/DetectionTypeCard';
 import { VideoPage} from './VideoPage';
-import { DocumentPage } from './DocumentPage';
 import { CallPage } from './CallPage';
 import { TextPage } from './TextPage';
 import IdentityPage from './IdentityPage';
-import SignaturePage from './signaturePage';
+import SignaturePage from './SignaturePage';
 
 export const UploadCenter: React.FC = () => {
   const [selectedType, setSelectedType] = useState<DetectionType>(null);
